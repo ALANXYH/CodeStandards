@@ -1,7 +1,7 @@
 module.exports = {
   "extends": "standard", // Airbnb 风格
   rules: {
-    'no-console': 'on', // 不允许在代码中保留 console 命令
+    'no-console': 'warn', // 不允许在代码中保留 console 命令
   },
   globals: {
     wx: null,
