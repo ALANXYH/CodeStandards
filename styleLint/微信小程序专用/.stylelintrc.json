@@ -2,5 +2,9 @@
   "extends": ["/usr/local/lib/node_modules/stylelint-config-standard", "/usr/local/lib/node_modules/stylelint-config-recess-order"],
   "plugins": [],
   "rules": {
+    "function-url-quotes": "always",
+    "indentation": 4,
+    "number-leading-zero": null,
+    "unit-no-unknown": null
   }
 }
